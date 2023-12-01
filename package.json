@@ -1,0 +1,36 @@
+{
+  "name": "service-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitlint": "commitlint --edit $HUSKY_GIT_PARAMS",
+    "build": "ts-node esbuild.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizok/service-template.git"
+  },
+  "keywords": [
+    "vite",
+    "service",
+    "template"
+  ],
+  "author": "Mizok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mizok/service-template/issues"
+  },
+  "homepage": "https://github.com/mizok/service-template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1",
+    "@commitlint/types": "^17.8.1",
+    "@types/node": "^20.8.10",
+    "esbuild": "^0.19.8",
+    "husky": "^8.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
