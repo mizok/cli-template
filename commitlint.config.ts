@@ -1,7 +1,8 @@
 import { UserConfig } from '@commitlint/types'
 
 const config: UserConfig = {
-  // 定義你的 Commitlint 規則
+  extends: ['@commitlint/config-conventional'],
+  // 定義 Commitlint 規則
   rules: {
     'type-enum': [
       2,
