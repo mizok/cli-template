@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitlint": "commitlint --edit $HUSKY_GIT_PARAMS",
     "build": "ts-node esbuild.ts",
-    "pack": "npm pack --pack-destination='./package'"
+    "pack": "npm pack --pack-destination='./package'",
+    "postinstall": "ts-node postinstall.ts"
   },
   "repository": {
     "type": "git",
