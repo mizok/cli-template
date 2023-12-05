@@ -1,5 +1,5 @@
 {
-  "name": "service-template",
+  "name": "cli-template",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
