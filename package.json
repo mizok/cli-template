@@ -11,7 +11,7 @@
     "commitlint": "commitlint --edit $HUSKY_GIT_PARAMS",
     "build": "ts-node esbuild.ts",
     "pack": "npm pack --pack-destination='./package'",
-    "postinstall": "node postinstall.ts"
+    "postinstall": "ts-node postinstall.ts"
   },
   "repository": {
     "type": "git",
