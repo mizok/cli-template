@@ -1,4 +1,4 @@
-# Service Template
+# CLI Template
 
 This is a template repository for building Node.js based CLI using [TypeScript](https://www.typescriptlang.org/) and [esbuild](https://esbuild.github.io/).
 
